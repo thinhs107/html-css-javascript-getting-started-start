@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order | Bethany's Pie Shop</title>
+    <link rel="stylesheet" href="site.css" type="text/css"/>
+  </head>
+  <body>
+    <!--header>nav>ul>li*3>a-->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="pies.html">Pies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside><img src="images/logo.png" alt="Bethany Pie Shop" /></aside>
+      <article>
+        <form action="http://localhost:5500/api/post" method="POST">
+            <div class="input-group">
+                <div><label for="first-name">First Name</label></div>
+                <div> <input type="text" name="first-name" id="first-name"/></div>
+            </div>
+
+        </form>
+      </article>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="pies.html">Pies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
